@@ -10,9 +10,9 @@ fastapi==0.85.0
 uvicorn
 uvloop
 httptools
-gunicorn==20.0.4
-click==7.1.2
-h11==0.12.0
-pydantic==1.8.1
-starlette==0.13.6
-typing-extensions==3.7.4.3
+gunicorn
+click
+h11
+pydantic>=1.2.0,<2.0.0
+starlette
+typing-extensions
