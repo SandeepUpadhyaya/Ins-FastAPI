@@ -1,11 +1,11 @@
 joblib>=0.14
+gunicorn
 fastapi
 uvicorn
 asyncpg
 psycopg2-binary
 uvloop
 httptools
-gunicorn
 click
 h11
 websockets

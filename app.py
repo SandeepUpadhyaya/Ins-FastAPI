@@ -30,5 +30,5 @@ def predict(PREMIUM_CHARGED:float, NO_CLAIM_DISCOUNT:float, SPECIAL_DISCOUNT:flo
       return 'The policy is going to be claimed'
     
     
-if __name__ =='__main__':
-    uvicorn.run(app)
+if __name__ =="__main__":
+    uvicorn.run('app:app',port=8000, reload=True)
