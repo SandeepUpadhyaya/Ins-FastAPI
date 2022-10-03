@@ -9,12 +9,14 @@ joblib>=0.14
 #fastapi uvicorn
 fastapi==0.85.0
 uvicorn
-nest_asyncio
+asyncpg
+psycopg2-binary
 uvloop
 httptools
 gunicorn
 click
 h11
+websockets
 pydantic>=1.2.0,<2.0.0
 starlette
 typing-extensions
