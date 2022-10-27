@@ -7,7 +7,7 @@ app = FastAPI(debug=True)
 
 @app.get('/')
 def home():
-    return {'text':'Claim risk prediction web app'}
+    return {'text':'Claim risk prediction web application'}
 
 @app.get('/predict')
 def predict(PREMIUM_CHARGED:float, NO_CLAIM_DISCOUNT:float, SPECIAL_DISCOUNT:float, SUM_INSURED:float, 
