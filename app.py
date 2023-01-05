@@ -1,4 +1,5 @@
 import uvicorn
+import pandas
 from fastapi import FastAPI
 import joblib
 
